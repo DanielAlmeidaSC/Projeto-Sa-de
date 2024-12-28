@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #efdfc5;
+}
+.logo_page{
+    margin-top: 45px;
+    margin-left: 68px;
+    height: 100px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+}
+
+.buttons_nav{
+    display: flex;
+    text-align: right;
+    justify-content: end;
+    margin-left: auto;
+    margin-right: 10px;
+
+}
+
+.text_nav a{
+    font-size: 20px;
+    text-decoration: none;
+    font-family: "Roboto", serif;
+    font-weight: bold;
+    padding: 50px;
+    color: black;
+}
+
+.first_block_bpm{
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.title_bpm{
+    font-family: "Roboto", serif;
+    margin-left: 68px;
+    margin-top: 60px;
+    font-size: 45px;
+}
+
+.paragraph_bpm{
+    margin-left: 68px;
+    font-size: 18px;
+    font-family: "Sen", serif;
+    width: 600px;
+    margin-top: 23px;
+}
+
+.person_heart{
+    height: 250px;
+    display: flex;
+    justify-content: space-evenly;
+    height: 450px;
+    margin-left: 300px;
+    margin-right: 200px;
+    margin-top: 60px;
+}
+
+.title_footer{
+    margin-top: 200px;
+    background-color: aliceblue;
+    padding: 50px;
+    color: black;
+    text-align: center;
+    font-family: "Sen", serif;
+}

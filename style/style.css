@@ -1,0 +1,279 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.first_block{
+    height: 100vh;
+    width: 100%;
+    background-image: url(/img/background_first_page.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+  
+.first_logo{
+    height: 150px;
+    margin-left: 137px;
+    margin-top: 77px;
+}
+
+.first_phrase{
+    font-size: 20px;
+    margin-left: 100px;
+    margin-top: 64px;
+    width: 400px;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    font-family: "Roboto", serif;
+}
+
+.first_block a{
+    text-decoration: none;
+    font-family: "Sen", serif;
+    font-size: 24px;
+    flex-direction: column;
+    display: flex;
+    margin-left: 137px;
+    background-color: black;
+    width: 320px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+    color: aliceblue;
+    border-radius: 91px;
+    font-weight: bold;
+
+}
+
+.text_one{
+    font-weight: 450;
+    margin-top: -100px;
+
+}
+
+.text_one strong{
+    flex-wrap: wrap;
+    font-weight: 400;
+    color: red;
+}
+.about_us_button{
+    margin-top: 40px;
+}
+
+.our_products{
+    margin-top: 20px;
+}
+
+.developer{
+    font-family: "Sen", serif;
+    margin-left: 137px;
+    margin-top: 70px;
+    font-weight: bold;
+
+}
+
+.align_text_right{
+    flex-direction: column;
+    display: flex;
+    margin-top: -350px;
+    margin-right: 200px;
+    margin-left: 800px;
+    text-align: center;
+    font-family: "Roboto", serif;
+}
+
+
+.about_us{
+    padding: 50px;
+    background-image: url(/img/background_about_me.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    text-align: justify;
+    flex-direction: column;
+    gap: 40px
+}
+
+.title_about_us{
+    font-family: "Poppins", serif;
+    font-size: 80px;
+    margin-left: 137px;
+    color: black;
+    font-weight: 500;
+}
+
+.text_about_us{
+    color: black;
+    margin-top: 67px;
+    margin-left: 137px;
+    margin-bottom: 44px;
+    font-family: "Roboto", serif;
+    font-size: 25px;
+    margin-right: 700px;
+}
+.know_me{
+    margin-top: 80px;
+    margin-bottom: 172px;
+}
+.know_me a{
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    font-family: "Sen", serif;
+    border: 2px solid black;
+    padding: 18px 35px;
+    margin-bottom: 500px;
+    margin-left: 137px;
+    margin-top: 40px;
+}
+
+
+.align_right_blocks a{
+    text-decoration: none;
+    color: black;
+    font-family: "Sen", serif;
+    padding: 0px 34px;
+    font-size: 20px;
+}
+.align_right_blocks img{
+    margin-bottom: 20px;
+    align-content: flex-end;
+    height: 250px;
+}
+.align_right_blocks{
+    text-align: right;
+    flex-direction: column;
+}
+
+.image{
+    align-self: self-end;
+    height: 250px;
+    width: 250px;
+    display: flex;
+    margin-right: 200px;
+    height: 300px;
+    margin-bottom: -400px;
+    border-radius: 100px;
+}
+
+.image img{
+    box-shadow: 2px 2px 50px white;
+    border-radius: 100px;
+    margin-top: -80px;
+    height: 400px;
+}
+
+.our_products_block{
+    padding: 90px;
+    background-image: url(/img/background_our_services.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    backdrop-filter: calc(250px);
+}
+
+.title_our_products{
+    font-size: 65px;
+    font-family: "Sen", serif;
+    text-align: center;
+    margin-bottom: 120px;
+    margin-top: 40px;
+}
+
+.button_services{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);/*cria colunas */
+    gap:60px;
+    margin-left: 92px;
+    margin-right: 92px;
+    align-items: center;
+}
+
+.button_calc{
+    font-size: 20px;
+    border: 2px solid black;
+    text-decoration: none;
+    font-family: "Sen", serif;
+    padding: 13px 17px;
+    color: black;
+    text-align: center;
+    border-radius: 100px;
+    
+}
+
+.button_calc:hover{
+    background-color: white;
+    border: none;
+}
+
+#maior{
+    font-size: 15px;
+}
+
+.nothing{
+    margin-top: 95px;
+}
+
+.contact_us_block{
+    background-image: url(/img/background_contact_us.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.block_interative{
+
+    height: 550px;
+    border-radius: 90px;
+    background-size: auto;
+    margin-top: 93px;
+    margin-left: 300px;
+    margin-right: 300px;
+    background-image: url(/img/second_background_about_us.png);
+    
+}
+
+.redes a{
+    
+    flex-direction: row;
+    justify-content: center;
+    display: inline-flex;
+    height: 100px;
+    cursor: pointer;
+}
+
+.redes{
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+}
+
+.nothing_two{
+    margin-top: 50px;
+}
+
+.title_contact{
+    font-family: "Sen", serif;
+    font-size: 56px;
+    color: white;
+    text-align: center;
+    padding-top: 128px;
+}
+
+.phrase_contact{
+    font-family: "Sen", serif;
+    font-size: 20px;
+    color: white;
+    margin-top: 24px;
+    margin-bottom: 65px;
+    text-align: center;
+}
+
+
+.title_footer{
+    padding: 50px;
+    color: black;
+    text-align: center;
+    font-family: "Sen", serif;
+}

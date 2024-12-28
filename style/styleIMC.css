@@ -1,0 +1,180 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #efdfc5;
+}
+.logo_page{
+    margin-top: 45px;
+    margin-left: 68px;
+    height: 100px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+}
+
+.buttons_nav{
+    display: flex;
+    text-align: right;
+    justify-content: end;
+    margin-left: auto;
+    margin-right: 10px;
+
+}
+
+.text_nav a{
+    font-size: 20px;
+    text-decoration: none;
+    font-family: "Roboto", serif;
+    font-weight: bold;
+    padding: 50px;
+    color: black;
+}
+
+.first_block_imc{
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.title_IMC{
+    font-family: "Roboto", serif;
+    margin-left: 68px;
+    margin-top: 60px;
+    font-size: 100px;
+}
+
+.paragraph_IMC{
+    margin-left: 68px;
+    font-size: 20px;
+    font-family: "Sen", serif;
+    width: 600px;
+    margin-top: 23px;
+}
+
+.title_forCalcule{
+    margin-left: 68px;
+    margin-top: 50px;
+    font-family: "Roboto", serif;
+    padding: 18px 22px;
+    background-color: black;
+    color: white;
+    width: 150px;
+    border-radius: 50px;
+}
+
+.person_first_page{
+    height: 250px;
+    display: flex;
+    justify-content: space-evenly;
+    height: 450px;
+    margin-left: 400px;
+    margin-right: 200px;
+}
+
+.line_separation{
+    font-family: "Sen", serif;
+    text-align: center;
+    width:100%;
+    background-color: black;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.calculadora_imc{
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.calculadora{
+    box-shadow: 2px 2px 50px black;
+    margin-top: 150px;
+    padding: 20px;
+    width: 600px;
+    background-color: white;
+    display: flex;
+    margin-left: 68px;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 50px;
+    height: 320px;
+}
+
+input{
+    margin-top: 22px;
+    border-radius: 50px;
+    width: 200PX;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid black;
+    background-color: rgba(255, 255, 255, 0.463);
+    height: 30px;
+    text-align: center;
+}
+
+label{
+    margin-top: 22px;
+    font-size: 18px;
+    text-align: center;
+    width: 200px;
+    font-weight: bold;
+    margin-bottom: -10px;
+    font-family: "Sen", serif;
+}
+
+.altura{
+    margin-top: 50px;
+    margin-bottom: -10px;
+}
+
+button{
+    margin-top: 40px;
+    height: 50px;
+    border: none;
+    width: 150px;
+    background-color: black;
+    color: white;
+    font-size: large;
+    font-family: "Roboto", serif;
+    font-weight: bold;
+    border-radius: 50PX;
+    cursor: pointer;
+
+}
+
+.resultado{
+    font-family: "Afacad Flux", serif;
+    font-size: 50px;
+    margin-right: 100px;
+    margin-top: 140px;
+}
+
+.resultado_number{
+    font-family: "Afacad Flux", serif;
+    font-size: 30px;
+    margin-top: 20px;
+
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+
+.title_footer{
+    margin-top: 200px;
+    background-color: aliceblue;
+    padding: 50px;
+    color: black;
+    text-align: center;
+    font-family: "Sen", serif;
+}

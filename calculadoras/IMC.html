@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC</title>
+    <link rel="stylesheet" href="/style/styleIMC.css">
+
+    <link rel="icon" href="/img/logoPage.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sen:wght@400..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="/img/IMC/LogoForImc.png" alt="LOGO DA PAGINA" class="logo_page">
+        <nav class="buttons_nav">
+            <div class="text_nav">
+                <a href="/html/index.html">HOME</a>
+                <a href="">CONTATO</a>
+                <a href="">NOSSOS PRODUTOS</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="first_block_imc">
+            <div class="itens">
+                <h1 class="title_IMC">IMC</h1>
+                <p class="paragraph_IMC">O Índice de Massa Corporal (IMC) é uma medida amplamente utilizada para avaliar se uma pessoa está dentro do peso ideal. Criado pelo polímata Lambert Quételet no final do século XIX, o IMC oferece uma forma simples e rápida de estimar o nível de gordura corporal, sendo reconhecido como um indicador internacional de obesidade. Esse método é amplamente adotado pela Organização Mundial da Saúde (OMS).</p>
+
+                <h3 class="title_forCalcule">CALCULE AGORA</h3>
+            </div>
+            <img src="/img/IMC/person_IMC.png" alt="Pessoa com sobrepeso e pessoa no peso ideal" class="person_first_page">
+        </section>
+
+        <section>
+            <h2 class="line_separation">NOS SIGA EM NOSSAS REDES SOCIAIS!</h2>
+        </section>
+
+        <section class="calculadora_imc">
+            <div class="calculadora">
+                <label>Digite seu peso</label>
+                <input type="number" class="input_peso">
+
+                <label class="altura">Digite sua altura</label>
+                <input type="number" class="input_altura">
+
+                <button onclick="Calcular()" class="button_calcular">VERIFICAR</button>
+            </div>
+            
+            <div class="resul">
+                <h2 class="resultado"></h2>
+                <h3 class="resultado_number"></h3>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <h1 class="title_footer">Desenvolvido por Daniel Almeida</h1>
+    </footer>
+
+</body>
+
+<script src="/js/imc.js"></script>
+</html>
