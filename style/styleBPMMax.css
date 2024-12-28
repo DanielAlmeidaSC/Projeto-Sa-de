@@ -61,8 +61,7 @@ header{
     display: flex;
     justify-content: space-evenly;
     height: 450px;
-    margin-left: 300px;
-    margin-right: 200px;
+    margin-right: 80px;
     margin-top: 60px;
 }
 
@@ -77,6 +76,8 @@ header{
 .block_informs {
     display: flex;
     margin-right: 80px;
+    height: 100vh;
+    padding-bottom: 200px;
 
 }
 .block_informs h1{
@@ -87,6 +88,7 @@ header{
 .block_informs p{
     margin-top: 16px;
     font-family: "Sen", serif;
+    box-sizing: content-box;
 }
 
 .first_block_inform{
@@ -101,11 +103,8 @@ header{
     padding: 40px;
     background-color: #2e2e2e;
     border-radius: 50px;
-    display: flex;
-    flex-direction: column;
-    height: 100%;
+    overflow: hidden;
 }
-
 
 .second_block_inform h1{
    text-align: left;
@@ -120,9 +119,7 @@ header{
     padding: 40px;
     background-color: #2e2e2e;
     border-radius: 50px;
-    display: flex;
-    flex-direction: column;
-    height: 100%;
+    overflow: hidden;
 }
 
 .third_block_inform{
@@ -134,9 +131,11 @@ header{
     padding: 40px;
     background-color: #2e2e2e;
     border-radius: 50px;
+    overflow: hidden;
 }
 
 .calculadora{
+    height: 100vh;
     display: flex;
 }
 
@@ -151,6 +150,7 @@ header{
     height: 100%;
     text-align: center;
     padding: 65px 70px;
+    height: 400px;
 }
 
 .calculadora_bpm label{
