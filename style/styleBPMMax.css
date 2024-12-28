@@ -74,3 +74,115 @@ header{
     text-align: center;
     font-family: "Sen", serif;
 }
+.block_informs {
+    display: flex;
+    margin-right: 80px;
+
+}
+.block_informs h1{
+    font-family: "Sen", serif;
+    text-align: left;
+}
+
+.block_informs p{
+    margin-top: 16px;
+    font-family: "Sen", serif;
+}
+
+.first_block_inform{
+    margin-top: 50px;
+}
+
+.first_block_inform{
+    margin-left: 80px;
+    width: 500px;
+    text-align: justify;
+    color: white;
+    padding: 40px;
+    background-color: #2e2e2e;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+
+.second_block_inform h1{
+   text-align: left;
+}
+
+.second_block_inform{
+    margin-top: 50px;
+    margin-left: 80px;
+    width: 500px;
+    text-align: justify;
+    color: white;
+    padding: 40px;
+    background-color: #2e2e2e;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.third_block_inform{
+    margin-top: 50px;
+    margin-left: 80px;
+    width: 500px;
+    text-align: justify;
+    color: white;
+    padding: 40px;
+    background-color: #2e2e2e;
+    border-radius: 50px;
+}
+
+.calculadora{
+    display: flex;
+}
+
+.calculadora_bpm{
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 77px;
+    margin-top: 77px;
+    width: 500px;
+    background-color: #2e2e2e;
+    height: 100%;
+    text-align: center;
+    padding: 65px 70px;
+}
+
+.calculadora_bpm label{
+    color: white;
+    font-family: "Afacad Flux", serif;
+    font-size: 30px;
+}
+
+
+.calculadora_bpm input{
+    margin-top: 80px;
+    border-radius: 50px;
+    border: none;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    font-family: "Afacad Flux", serif;
+    font-size: 30px;
+    justify-content: center;
+    align-self: center;
+}
+
+
+.botoes button{
+    margin-top: 80px;
+    height: 40px;
+    border-radius: 50px;
+    padding-right: 20px;
+    margin-left: 20px;
+    align-items: center;
+    border: none;
+    color: black;
+    font-family: "Afacad Flux", serif;
+    font-size: 20px;
+}
