@@ -151,12 +151,14 @@ header{
     text-align: center;
     padding: 65px 70px;
     height: 400px;
+    box-shadow: 2px 2px 50px black;
 }
 
 .calculadora_bpm label{
     color: white;
     font-family: "Afacad Flux", serif;
     font-size: 30px;
+    font-weight: bold;
 }
 
 
@@ -165,6 +167,7 @@ header{
     border-radius: 50px;
     border: none;
     color: black;
+    font-weight: bold;
     padding: 20px;
     text-align: center;
     font-family: "Afacad Flux", serif;
@@ -173,16 +176,47 @@ header{
     align-self: center;
 }
 
-
-.botoes button{
-    margin-top: 80px;
-    height: 40px;
-    border-radius: 50px;
-    padding-right: 20px;
-    margin-left: 20px;
-    align-items: center;
-    border: none;
-    color: black;
+.text_warning{
     font-family: "Afacad Flux", serif;
+    color: white;
     font-size: 20px;
+    font-weight: bold;
+    margin-top: 80px;
+    font-style: italic;
+}
+
+button{
+    margin-bottom: 70px;
+    margin-top: 58px;
+    padding: 20px;
+    border-radius: 50px;
+    font-weight: bold;
+    border: none;
+    color: white;
+    font-size: 20px;
+}
+
+.VerificarM{
+    background-color: blue;
+    margin-right: 15px;
+}
+
+.VerificarF{
+    background-color: #ff66c4;
+
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.resul{
+    font-size: 30px;
+    font-family: "Afacad Flux", serif;
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 300px;
 }

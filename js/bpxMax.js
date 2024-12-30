@@ -5,7 +5,12 @@ function VerificaMasculino(){
 
     let resultado = bpmMasc - idade;
 
-    document.querySelector('h3').innerHTML = `Seus batimentos devem atingir no máximo ${resultado} ao fazer atividades físicas!`;
+    if(resultado < 0){
+        document.querySelector('h3').innerHTML = `Batimentos não podem ser negativos!`;
+    }else{
+        document.querySelector('h3').innerHTML = `Seus batimentos devem atingir no máximo ${resultado} ao fazer atividades físicas!`;
+    }
+
 }
 
 function VerificarFeminino(){
@@ -14,6 +19,11 @@ function VerificarFeminino(){
     let bpmFem = 226;
 
     let resultado = bpmFem - idade;
+    
+    if(resultado < 0){
+        document.querySelector('h3').innerHTML = `Batimentos não podem ser negativos!`;
+    }else{
+        document.querySelector('h3').innerHTML = `Seus batimentos devem atingir no máximo ${resultado} ao fazer atividades físicas!`;
+    }
 
-    document.querySelector('h3').innerHTML = `Seus batimentos devem atingir no máximo ${resultado} ao fazer atividades físicas!`;
 }
